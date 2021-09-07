@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Atlas</string>
+    <string name="app_name_home"></string>
+    <string name="firstname_hint_registration">Firstname</string>
+    <string name="lastname_hint_registration">Lastname</string>
+    <string name="username_hint_registration">Username</string>
+    <string name="ndoc_hint_registration">Identification Number</string>
+    <string name="phonenumber_hint_registration">Phone Number</string>
+    <string name="address_hint_registration">Address</string>
+    <string name="email_hint_registration">Email</string>
+    <string name="password_hint_registration">Password</string>
+    <string name="conf_password_hint_registration">Confirm Password</string>
+    <string name="register_button">Register</string>
+    <string name="already_account_link">Already have an account?</string>
+    <string name="login_button">Login</string>
+    <string name="back_registration">Back to registration</string>
+    <string name="update_button">UPDATE</string>
+    <string name="GOOGLE_MAPS_KEY">AIzaSyCcVn8FWeE1mmxAjJx_fJUSKZuWqCvrNq0</string>
+
+
+</resources>

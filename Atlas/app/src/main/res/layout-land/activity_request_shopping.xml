@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/backgroundgrey">
+
+
+        <TextView
+                android:id="@+id/deliverylabelTextView"
+                android:layout_width="108dp"
+                android:layout_height="22dp"
+                android:text="Delivery Point"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintTop_toTopOf="parent" app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginTop="80dp"
+                app:layout_constraintHorizontal_bias="0.341"/>
+        <EditText
+                android:id="@+id/deliverypointEditText"
+                android:padding="10dp"
+                android:textColorHint="@color/black"
+                android:background="@drawable/rounded_edittext"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintTop_toBottomOf="@+id/deliverylabelTextView"
+                android:layout_marginTop="28dp"/>
+        <EditText
+                android:padding="10dp"
+                android:background="@drawable/rounded_edittext"
+                android:id="@+id/ShoppingEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:hint="WRITE YOUR SHOPPING HERE!"
+                android:ems="10"
+                android:textColorHint="@color/black"
+                android:inputType="textMultiLine"
+                android:paddingLeft="16dp"
+                app:layout_constraintBottom_toTopOf="@+id/buttonSend"
+                app:layout_constraintTop_toBottomOf="@+id/deliverypointEditText"
+                app:layout_constraintVertical_bias="1.0"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginBottom="45dp" app:layout_constraintHorizontal_bias="0.495"
+                android:layout_marginTop="30dp"/>
+
+        <android.widget.Button
+            android:id="@+id/buttonSend"
+            android:layout_width="144dp"
+            android:layout_height="63dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/buttonback"
+            android:text="Send"
+
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
